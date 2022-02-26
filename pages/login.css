@@ -1,0 +1,53 @@
+.login-container
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top:8rem;
+    flex-direction: row;
+}
+.login-card
+{
+    text-align: center;
+    /* height:25rem; */
+    padding: 1rem;
+    width: 25rem;
+    border : 1px solid #ccc;
+}
+.bottom-card
+{
+    width: 25rem;
+    margin-top:1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    display: inline-flex;
+    justify-content:center;
+    align-items: center;
+}
+.carbg
+{
+    background: url('../assets/home.png');
+    background-size:cover;
+    height:590px;
+    width: 441px;
+    position: relative;
+
+}
+.car
+{
+    height: 423px;
+    width: 241px;
+    top:93px;
+    left:143px;
+    position: absolute;
+}
+/* @media only screen and (max-width:620px)
+{
+    .login-card{
+        width:100%;
+    }
+    .bootom-card
+    {
+        width:100%;
+    }
+} */

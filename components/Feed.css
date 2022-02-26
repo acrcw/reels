@@ -1,0 +1,96 @@
+.feed-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.navbar
+{
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.nav-icons
+{
+    margin:0.5rem;
+    color:black;
+}
+.videos-info
+{
+    position:absolute;
+    bottom:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:100%;
+}
+.video-container
+{
+    height: 80vh;
+    border:1px solid  black;
+    border-radius: 15px;
+    scrollbar-width: 0;
+    scrollbar-width: none;
+    overflow-y: scroll;
+
+}
+.video-container::-webkit-scrollbar
+{
+    scrollbar-width: none;
+    display: none;
+}
+.post-container
+{
+    height:80vh;
+    width : 20rem;
+    margin-bottom: 0.6rem;
+    position: relative;
+
+}
+.post-container>video{
+    height: 80vh;
+   width:20rem;
+   object-fit: contain;
+        background-color: rgb(89, 92, 92);
+        border-radius:  15px;
+}
+.nav-icons-container
+{
+    display :flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar_container
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+}
+.avatar_container>p{
+    margin-left:0.5 rem;
+}
+.post-like
+{
+    height:3rem;
+    display: flex;
+    width:30%;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+.upload-btn
+{
+    width:15 rem;
+    height: 10vh;
+}
+@media only screen and (max-width:500px)
+{
+    .nav-icons{
+        display: none;
+    }
+}

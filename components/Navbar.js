@@ -58,7 +58,7 @@ const ResponsiveAppBar = () => {
             component="div"
             sx={{ mr: 2, display: { xs: 'flex', md: 'flex' } }}
           >
-            <Image src={img} alt={grwegw} height={49} width={200} />
+            <Image src={img} alt="" height={49} width={200} />
           </Typography>
 
           {/* <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'flex' } }}>

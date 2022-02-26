@@ -98,7 +98,7 @@ uploadTask.on('state_changed',
 
       <div className="signup-container">
     <div className='signup-card'>
-        <Image src={insta} alt={hdeb} height="300px"/>
+        <Image src={insta} alt="" height="300px"/>
     <TextField size="small" id="outlined-basic" margin='dense' fullWidth label="Email" variant="outlined" value={email} onChange={(e)=>setEmail(e.target.value)} />
     <TextField size="small" id="outlined-basic" margin='dense' fullWidth label="Password" type="password" variant="outlined" value={password} onChange={(e)=>setPassword(e.target.value)} />
     <TextField size="small" id="outlined-basic" margin='dense' fullWidth label="Full Name" variant="outlined" value={name} onChange={(e)=>setName(e.target.value)}/>

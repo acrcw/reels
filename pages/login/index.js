@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from 'react'
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import Image from 'next/image'
-import { router } from 'next/router';
+import { Router } from 'next/router';
 import insta from '../../assets/insta.png'
 import { Carousel } from 'react-responsive-carousel';
 import bg1 from '../../assets/img2.jpg'
@@ -59,15 +59,15 @@ function Index() {
                 showArrows={false}
                 interval={2000}
                 autoPlay={true}>
-               <Image src={bg1} alt={"hello"}></Image>
-                <Image src={bg2} alt={"hello2"}></Image>
-                <Image src={bg3} alt={"hello3"}></Image>
-                <Image src={bg4} alt={"hello4"}></Image>
+               <Image src={bg1} alt={""}></Image>
+                <Image src={bg2} alt={""}></Image>
+                <Image src={bg3} alt={""}></Image>
+                <Image src={bg4} alt={""}></Image>
             </Carousel></div>
             </div>
             <div>
                 <div className='login-card'>
-                    <Image src={insta} alt={hel} height="300px" />
+                    <Image src={insta} alt="" height="300px" />
                     <TextField size="small" id="outlined-basic" margin='dense' fullWidth label="Email" variant="outlined" value={email} onChange={(e)=>setEmail(e.target.value)}/>
                     <TextField size="small" id="outlined-basic" margin='dense' fullWidth label="Password" type="password" variant="outlined" value={password} onChange={(e)=>setPassword(e.target.value)} />
                     {/* <TextField size="small" id="outlined-basic" margin='dense' fullWidth label="Full Name" variant="outlined" /> */}
